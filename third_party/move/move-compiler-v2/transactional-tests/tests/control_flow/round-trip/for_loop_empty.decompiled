@@ -1,0 +1,9 @@
+//**** Cross-compiled for `move` syntax from `tests/control_flow/for_loop_empty.move`
+
+//# run
+script {
+    fun main() {
+        let _v0 = 0;
+        while (_v0 < 10) _v0 = _v0 + 1;
+    }
+}

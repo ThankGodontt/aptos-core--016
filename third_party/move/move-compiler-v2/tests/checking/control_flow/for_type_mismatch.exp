@@ -1,0 +1,13 @@
+
+Diagnostics:
+error: expected `integer` but found a value of type `bool`
+  ┌─ tests/checking/control_flow/for_type_mismatch.move:5:19
+  │
+5 │         for (i in true..false) {
+  │                   ^^^^
+
+error: expected `integer` but found a value of type `bool`
+  ┌─ tests/checking/control_flow/for_type_mismatch.move:5:25
+  │
+5 │         for (i in true..false) {
+  │                         ^^^^^

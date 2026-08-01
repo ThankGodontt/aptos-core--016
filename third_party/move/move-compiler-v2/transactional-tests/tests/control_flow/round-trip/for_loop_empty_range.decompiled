@@ -1,0 +1,8 @@
+//**** Cross-compiled for `move` syntax from `tests/control_flow/for_loop_empty_range.move`
+
+//# run
+script {
+    fun main() {
+        if (10 < 9) abort 42;
+    }
+}

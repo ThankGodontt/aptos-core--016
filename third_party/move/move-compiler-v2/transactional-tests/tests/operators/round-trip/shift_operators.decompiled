@@ -1,0 +1,64 @@
+//**** Cross-compiled for `move` syntax from `tests/operators/shift_operators.move`
+
+//# run
+script {
+    fun main() {
+        let _v0 = 0u8 << 8u8;
+    }
+}
+
+
+//# run
+script {
+    fun main() {
+        let _v0 = 0u8 >> 8u8;
+    }
+}
+
+
+//# run
+script {
+    fun main() {
+        ()
+    }
+}
+
+
+//# run
+script {
+    fun main() {
+        ()
+    }
+}
+
+
+//# run
+script {
+    fun main() {
+        ()
+    }
+}
+
+
+//# run
+script {
+    fun main() {
+        ()
+    }
+}
+
+
+//# run
+script {
+    fun main() {
+        ()
+    }
+}
+
+
+//# run
+script {
+    fun main() {
+        ()
+    }
+}

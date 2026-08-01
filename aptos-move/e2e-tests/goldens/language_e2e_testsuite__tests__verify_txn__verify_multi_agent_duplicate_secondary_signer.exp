@@ -1,0 +1,21 @@
+Ok(
+    [
+        TransactionOutput {
+            write_set: V0(
+                WriteSetV0 {
+                    value_writes: WriteSetMut {
+                        write_set: {},
+                    },
+                    hotness: {},
+                    extensions: [],
+                },
+            ),
+            events: [],
+            gas_used: 0,
+            status: Discard(
+                SIGNERS_CONTAIN_DUPLICATES,
+            ),
+            auxiliary_data: None,
+        },
+    ],
+)
